@@ -38,6 +38,16 @@
                     </c:choose>
                 </h5>
                 <form action="/meal time" method="post" style="width: 100%" class="form">
+                    <c:if test="${not empty param.success_msg}">
+                        <div class="alert alert-success" style="margin: auto; padding: 1em 4em;margin-bottom: 1em;">
+                            <i>${param.success_msg}</i>
+                        </div>
+                    </c:if>
+                    <c:if test="${not empty param.err_msg}">
+                        <div class="alert alert-danger" style="margin: auto; padding: 1em 4em;margin-bottom: 1em;">
+                            <i>${param.err_msg}</i>
+                        </div>
+                    </c:if>
                     <c:if test="${sessionScope.get('update') != null}">
                         <input type="number" name="id" value="${sessionScope.get('update').getId()}" hidden />
                     </c:if>
