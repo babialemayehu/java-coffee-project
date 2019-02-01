@@ -7,7 +7,7 @@
             <div class="card text-white bg-primary o-hidden h-100">
                 <div class="card-body">
                     <div class="card-body-icon">
-                        <i class="fas fa-fw fa-comments"></i>
+                        <i class="fas fa-fw fa-check"></i>
                     </div>
                     <div class="mr-5"><%=request.getAttribute("allowed")%> Allowed meals</div>
                 </div>
@@ -18,7 +18,7 @@
             <div class="card text-white bg-warning o-hidden h-100">
                 <div class="card-body">
                     <div class="card-body-icon">
-                        <i class="fas fa-fw fa-list"></i>
+                        <i class="fas fa-fw fa-book"></i>
                     </div>
                     <div class="mr-5"><%=request.getAttribute("student")%> Active students</div>
                 </div>
@@ -29,7 +29,7 @@
             <div class="card text-white bg-success o-hidden h-100">
                 <div class="card-body">
                     <div class="card-body-icon">
-                        <i class="fas fa-fw fa-shopping-cart"></i>
+                        <i class="fas fa-fw fa-coffee"></i>
                     </div>
                     <div class="mr-5"><%=request.getAttribute("meal")%> Total meal</div>
                 </div>
