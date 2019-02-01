@@ -11407,17 +11407,17 @@ body.sidebar-toggled footer.sticky-footer {
 .btn-round {
   border-radius: 50px; }
 
-.dropdown-menu .dropdown-item {
+.sidebar .dropdown-menu .dropdown-item {
   color: #cccccc;
   font-size: .9rem;
   padding: .4rem; }
 
-.dropdown-menu .dropdown-item:hover {
+.sidebar .dropdown-menu .dropdown-item:hover {
   color: white;
   background-color: rgba(0, 0, 0, 0.3); }
 
 .form-group > label {
-  font-size: .5rem; }
+  font-size: 1rem; }
 
 #context-menu > li:hover {
   background: rgba(0, 0, 0, 0.3); }
